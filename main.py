@@ -5,6 +5,7 @@ import config
 
 def main_func():
     app = QApplication(sys.argv)
+    app.setStyle('Fusion')
     ex = config.configPage()
     ex.show()
     sys.exit(app.exec_())
