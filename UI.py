@@ -4,7 +4,6 @@ from PyQt5.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QFrame, QApplica
 from PyQt5.QtGui import QFont, QColor
 from PyQt5.QtCore import Qt, QRect, QSize, QTimer, QThread, pyqtSignal
 import pyqtgraph as pg
-import config
 import sys
 from time import sleep
 import math
@@ -26,7 +25,7 @@ class Thread(QThread):
 
     def run(self):
         i = 1
-        while i < 100:
+        while i <= 150:
             if self.exiting:
                 break
             self._signal.emit(i)
@@ -139,7 +138,7 @@ class FluidLenght(QMainWindow):
         self.framelabel.setFrameShadow(QFrame.Raised)
         self.vlayoutlabel = QVBoxLayout(self.framelabel)
         self.vlayoutliquid.addWidget(self.framelabel)
-        self.framelabel.setStyleSheet('color: #800000')
+        self.framelabel.setStyleSheet('color: #FF0000')
 
         self.label = QLabel(self.framelabel)
         self.label.setText('Liquid Properties')
@@ -387,7 +386,7 @@ class FluidLenght(QMainWindow):
         try:
             real = float(self.realheightvalue.text())
             mesheight = float(self.height.text())
-            precision = round((real - mesheight) / real * 100, 2)
+            precision = round((mesheight / real) * 100, 2)
             self.precision.setText(str(precision) + '%')
 
         except:
@@ -613,7 +612,7 @@ class FluidLenght(QMainWindow):
             potval = self.potpin.read()
             if potval is not None:
                 self.intensityval.append(potval)
-                self.graph.plot(self.intensityval)
+                self.graph.plot(self.intensityval, pen=(255,0,0))
 
         except:
             text ="Please check your setup or make sure that you chose the right port and serial"
