@@ -1,12 +1,12 @@
 from PyQt5.QtWidgets import QApplication
 import sys
+
 import UI
-import config
 
 def main_func():
     app = QApplication(sys.argv)
     app.setStyle('Fusion')
-    ex = config.configPage()
+    ex = UI.FluidLenght()
     ex.show()
     sys.exit(app.exec_())
 
