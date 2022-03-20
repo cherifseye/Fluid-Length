@@ -135,3 +135,11 @@ The software is composed of three parts:
           — Real height: This field takes as input the real height of the liquid
           — Precision: By pressing this button, the user obtains the precision of his measurement system.
 <img src="https://github.com/cherifseye/Fluid-Length/blob/master/Mesures%2520et%2520calcul.png" alt="drawing" width="200"/>
+
+     Graphics:
+     In this part the user is able to display in a graph the intensity values according to time.
+     By pressing the plot button, the graph shows in real time the value of the intensity captured by the
+    photodiode as a function of time for 150 values.
+    The clear button allows you to erase the graph and reactivate the plot button
+    
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/graphics.png" alt="drawing" width="200"/>
