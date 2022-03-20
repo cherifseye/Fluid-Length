@@ -16,13 +16,18 @@ applied to the device
     the angle of the extreme ray in this medium.
     So the larger the diameter of the fiber core, the greater the ability to capture light.
     
--SWITCH OFF A LED:
+-Intensity-based pressure sensors:
 
-    Fonction: __off__(pin)
-    Argument: 
-            pin: The number of the digital pin
-    As a output this function will turn on the led.
-    An example is provide in the file example.py(Example2: blink a LED)
+    he method that seemed the simplest to us for measuring pressure with optical fibers
+    was to have an "iris diaphragm" whose aperture would change with pressure. Thus, we have
+    developed the device used for this project. The operation of the device is simple: when a pressure
+    is applied to the membrane, the latter deforms so that the pressure inside the device is equal to that
+    exterior, according to the ideal gas law:
+                                       p1v1 = p2v2
+    This deformation will partially block the passage of light, which causes a drop in the intensity captured.
+    by the detector.
+    By finding the relationship between the intensity and the pressure applied to the device, it will be possible to
+    determine the pressure with the intensity captured.
    
    
  -SWITCH BUTTON:
