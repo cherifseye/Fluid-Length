@@ -88,3 +88,29 @@ applied to the device
     after having received the light which passes through our flexible membrane, the latter is connected to our
     sensor. Thanks to banana wires, one pin of the photo-diode is connected to the ground and the other to a pin of the
     10kΩ resistor and its other pin connected to ground
+    
+    -Optical Fiber:
+
+    Fiber optics is a cable used to propagate light waves between two places. The light
+    is conducted without loss to the core of the cable. The maximum amount of light the fiber can accept is
+    the numerical aperture NA which corresponds to the product of the refractive index of the medium by the sine of
+    the angle of the extreme ray in this medium.
+    So the larger the diameter of the fiber core, the greater the ability to capture light.
+    
+-Embedded Software FLuid Length:
+The software is composed of three parts:
+
+    Configuration:
+    This part is mainly composed of four frames.
+    — Port Name(1) must contain the information of the name of the port where the arduino is connected(1) for example
+    COM3 for windows computers, dev/cu/usbmodem111111 for mac and /dev/tty/USB0 in linux
+    — Digital Pin(2) This section contains the pin number to be used at the level of the Arduino connected to a
+    LED to do the test part. a spinbox is available ranging from 1 to 13 constituting the digital pins
+    available on the Arduino Uno.
+    — Analog Pin(3) it is through this pin that the information on the intensity of the light will be received, a
+    combo box is available allowing to choose between the analog pins of the available arduino (A0. A1,
+    A2, A3, A4, A5)
+    — The last frame contains the test(4) and setup(5) buttons. The setup button allows you to connect the device
+    plication with the arduino while the test button allows you to check the assembly and the pins have been correctly
+    chosen by lighting the led accompanying the assembly. If the system is not properly connected, or the port or
+    the wrong pins, an error message will appear.
