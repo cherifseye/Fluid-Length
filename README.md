@@ -114,7 +114,7 @@ The software is composed of three parts:
     plication with the arduino while the test button allows you to check the assembly and the pins have been correctly
     chosen by lighting the led accompanying the assembly. If the system is not properly connected, or the port or
     the wrong pins, an error message will appear.
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/config.png" alt="drawing" width="300"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/config.png" alt="drawing" width="400"/>
     
     Measures and computations:
     This part consists of taking the intensity values ​​and calculating the corresponding gauge pressure,
