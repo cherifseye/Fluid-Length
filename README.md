@@ -114,3 +114,24 @@ The software is composed of three parts:
     plication with the arduino while the test button allows you to check the assembly and the pins have been correctly
     chosen by lighting the led accompanying the assembly. If the system is not properly connected, or the port or
     the wrong pins, an error message will appear.
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/config.png" alt="drawing" width="200"/>
+    
+    Measures and computations:
+    This part consists of taking the intensity values ​​and calculating the corresponding gauge pressure,
+    fluid level, and accuracy. It is mainly composed of two frames
+    — Liquid Properties:
+           — Density: Takes as value the density of the liquid
+           — Gravity: takes as input the value of the acceleration due to gravity
+           — Specific weight: This button is used to calculate the corresponding specific weight.
+    — Measurements:
+          — Intensity: This button is used to recover the value of the intensity captured by the photodiode at
+          when the user clicked the button.
+          — Pressure 0: The user enters the atmospheric pressure, 105000 in the open air and 0 for tank closed.
+          — Gauge: This field is directly filled when the user has already clicked on the intensity button,
+          the gauge pressure calculation is done automatically.
+          — Pressure abs: This button is used to calculate the absolute pressure (Gauge + pressure0)
+          — Height This button is used to calculate the height of the liquid by taking the information contained
+          in the fields of specific weight and Pressure abs
+          — Real height: This field takes as input the real height of the liquid
+          — Precision: By pressing this button, the user obtains the precision of his measurement system.
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/Mesures%2520et%2520calcul.png" alt="drawing" width="200"/>
