@@ -350,9 +350,9 @@ class FluidLenght(QMainWindow):
     def get_intensity(self):
         try:
             self.intensty.clear()
-            potval = self.potpin.read()
-            jaugeval = math.exp(int(potval)) + random.uniform(-0.1, 0.1)
-            self.intensty.setText(str(potval))
+            ival = self.photodiode_pin.read()
+            jaugeval = math.exp(int(ival)) + random.uniform(-0.1, 0.1)
+            self.intensty.setText(str(ival))
             self.jauge.setText(str(round(jaugeval, 2)))
 
         except:
@@ -583,7 +583,7 @@ class FluidLenght(QMainWindow):
             it = util.Iterator(self.board)
             it.start()
             pottext = self.combo.currentText()
-            self.potpin = self.board.get_pin(self.apinchoice[pottext])
+            self.photodiode_pin = self.board.get_pin(self.apinchoice[pottext])
 
             
         except:
@@ -609,7 +609,7 @@ class FluidLenght(QMainWindow):
 
     def signal_accept(self):
         try:
-            potval = self.potpin.read()
+            potval = self.photodiode_pin.read()
             if potval is not None:
                 self.intensityval.append(potval)
                 self.graph.plot(self.intensityval, pen=(255,0,0))
