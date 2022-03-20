@@ -8,13 +8,13 @@ optical fiber. More specifically, we want:
 3. Develop python software to receive real-time pressure and intensity variations
 applied to the device
 
--LIGHT ON A LED:
+-Optical Fiber:
 
-    Fonction: __on__(pin)
-    Argument: 
-            pin: The number of the digital pin
-    As a output this function will turn on the led.
-    You can see the exemple in the file example.py (Example1:turn on a led)
+    Fiber optics is a cable used to propagate light waves between two places. The light
+    is conducted without loss to the core of the cable. The maximum amount of light the fiber can accept is
+    the numerical aperture NA which corresponds to the product of the refractive index of the medium by the sine of
+    the angle of the extreme ray in this medium.
+    So the larger the diameter of the fiber core, the greater the ability to capture light.
     
 -SWITCH OFF A LED:
 
