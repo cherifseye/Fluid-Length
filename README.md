@@ -98,6 +98,9 @@ applied to the device
     So the larger the diameter of the fiber core, the greater the ability to capture light.
     
 -Embedded Software FLuid Length:
+
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/fluidl.png" alt="drawing" width="400"/>
+
 The software is composed of three parts:
 
     Configuration:
