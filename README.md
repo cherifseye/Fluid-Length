@@ -30,14 +30,13 @@ applied to the device
     determine the pressure with the intensity captured.
    
    
- -SWITCH BUTTON:
+ -Diaphragm modeling:
  
-    Fonction: __switch__(pin)
-    Argument: 
-            pin The number of the digital pin
-    As a output this function will return the switchstate (1 if if the button is pressed or 0 otherwise).
-    An example is provide in the file example.py(Example3: Control 2 LED using a switch button. 
-    Please read the comment on file to understand how it's working)
+    Given the operating principle of the device we wanted to design, we needed a membrane that could be deformed under pressure. 
+    Thus, we choose thin atex as the membrane. In order for a deformation to be observable when the device is in water, the latter must 
+    be watertight so that a pressure difference is observable between the interior and the exterior and that the membrane deforms under
+    this pressure. pressure difference. We therefore choose to glue microscope slides with QuickSeal to the two holes of the device.
+    The structure of the device is itself printed with a 3D printer.
     
 
 -GET THE POTENTIOMETER VALUE:
