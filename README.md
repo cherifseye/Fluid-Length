@@ -99,7 +99,11 @@ applied to the device
     
 -Embedded Software FLuid Length:
 
+![alt text](https://github.com/cherifseye/Fluid-Length/blob/master/fluidl.png)
+<!---
 <img src="https://github.com/cherifseye/Fluid-Length/blob/master/fluidl.png" alt="drawing" width="400"/>
+-->
+
 
 The software is composed of three parts:
 
