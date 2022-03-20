@@ -6,5 +6,6 @@ Fiber optics are a well-known tool these days. Its applications are multiple, ra
    3. Develop python software to receive real-time pressure and intensity variations applied to the device.
 
 Relationship between pressure and height of a fluid:
+
    The height of a fluid is intimately linked to the pressure exerted on an object or a wall located in this liquid
    p = rho x g = gamma x h 
