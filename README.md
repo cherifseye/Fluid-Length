@@ -71,6 +71,7 @@ applied to the device
 -Assembly
 
 <img src="https://github.com/cherifseye/Fluid-Length/blob/master/montage1.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/montage2.jpg" alt="drawing" width="200"/>
 
       A laser beam is injected into a highly multimode fiber of 100 micron core, then is 
       guided to the device acting as an iris diaphragm. Depending on the external pressure, a quantity of 
