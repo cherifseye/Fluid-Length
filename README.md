@@ -32,12 +32,14 @@ applied to the device
    
  -Diaphragm modeling:
  
+ <img align= center src="https://github.com/cherifseye/Fluid-Length/blob/master/diaphragme.jpg" alt="drawing" width="200"/>
+ 
     Given the operating principle of the device we wanted to design, we needed a membrane that could be deformed under pressure. 
     Thus, we choose thin atex as the membrane. In order for a deformation to be observable when the device is in water, the latter must 
     be watertight so that a pressure difference is observable between the interior and the exterior and that the membrane deforms under
     this pressure. pressure difference. We therefore choose to glue microscope slides with QuickSeal to the two holes of the device.
     The structure of the device is itself printed with a 3D printer.
-   <img align= center src="https://github.com/cherifseye/Fluid-Length/blob/master/diaphragme.jpg" alt="drawing" width="200"/>
+   
     
 
 -GET THE POTENTIOMETER VALUE:
