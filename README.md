@@ -81,11 +81,9 @@ applied to the device
       captured and this signal is read by by using an Arduino UNO and the software Fluid Length that we develop.
       
       
--GET WATER LEVEL
+-Arduino
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/circuit.jpg" alt="drawing" width="200"/>
 
-     Fonction: __waterlevel__(pin, unity)
-     Argument: 
-            -pin: The number of the Analog pin
-     As a output this function will return the value of the water level 
-     An example is provide in the file example.py(Example8: get water level ADC.
-     Please read the comment on file to understand how it's working)
+    after having received the light which passes through our flexible membrane, the latter is connected to our
+    sensor. Thanks to banana wires, one pin of the photo-diode is connected to the ground and the other to a pin of the
+    10kΩ resistor and its other pin connected to ground
