@@ -136,10 +136,27 @@ The software is composed of three parts:
           — Precision: By pressing this button, the user obtains the precision of his measurement system.
 <img src="https://github.com/cherifseye/Fluid-Length/blob/master/Mesures%2520et%2520calcul.png" alt="drawing" width="200"/>
 
-     Graphics:
-     In this part the user is able to display in a graph the intensity values according to time.
-     By pressing the plot button, the graph shows in real time the value of the intensity captured by the
+    Graphics:
+    In this part the user is able to display in a graph the intensity values according to time.
+    By pressing the plot button, the graph shows in real time the value of the intensity captured by the
     photodiode as a function of time for 150 values.
     The clear button allows you to erase the graph and reactivate the plot button
     
 <img src="https://github.com/cherifseye/Fluid-Length/blob/master/graphics.png" alt="drawing" width="200"/>
+    
+    Saving data and Graphics:
+    After making the measurements, it is quite possible to save the image of the graph or recover
+    the data in a csv file it is also possible to open the image in a matplotlib window or in format
+    SVG(Support Vector Graphics)
+    To do this, here are the steps to follow:
+         — right-click on the part where the graph is displayed, a small window appears and click on
+         export.
+         
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/export.png" alt="drawing" width="200"/>
+    
+    — By pressing export a new window opens automatically and you can choose under which
+    format you want to export your chart or data with the ability to edit multiple
+    settings.
+    
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/save.png" alt="drawing" width="200"/>
+
