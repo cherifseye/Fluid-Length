@@ -37,8 +37,7 @@ applied to the device
     be watertight so that a pressure difference is observable between the interior and the exterior and that the membrane deforms under
     this pressure. pressure difference. We therefore choose to glue microscope slides with QuickSeal to the two holes of the device.
     The structure of the device is itself printed with a 3D printer.
-    <img align = center
-    src="https://github.com/cherifseye/Fluid-Length/blob/master/diaphragme.jpg" alt="drawing" width="200"/>
+   <img align= center src="https://github.com/cherifseye/Fluid-Length/blob/master/diaphragme.jpg" alt="drawing" width="200"/>
     
 
 -GET THE POTENTIOMETER VALUE:
