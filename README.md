@@ -32,7 +32,7 @@ applied to the device
    
  -Diaphragm modeling:
  
- <img align= center src="https://github.com/cherifseye/Fluid-Length/blob/master/diaphragme.jpg" alt="drawing" width="200"/>
+ <img src="https://github.com/cherifseye/Fluid-Length/blob/master/diaphragme.jpg" alt="drawing" width="200"/>
  
     Given the operating principle of the device we wanted to design, we needed a membrane that could be deformed under pressure. 
     Thus, we choose thin atex as the membrane. In order for a deformation to be observable when the device is in water, the latter must 
@@ -44,7 +44,7 @@ applied to the device
 
 -Final support modeling:
 
-<img align= center src="https://github.com/cherifseye/Fluid-Length/blob/master/support_lentille.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/support_lentille.jpg" alt="drawing" width="200"/>
 
     Finally, we designed a support with a lens in the center and we positioned the fibers at exactly 2f from the lens in order 
     to have a magnification of 1. This support is larger than the first, but it offers much greater precision. bigger. 
@@ -53,28 +53,22 @@ applied to the device
                                                 
                                                 
                                       
--GET TEMPERATURE VALUE USING TMP102 SENSOR
+-Membrane
    
-    Fonction: __tmp102__(pin, unity)
-    Argument: 
-            -pin: The number of the Analog pin
-            -unity: the unity that you want get you temperature (F for farenheit) and (C for celsius)
-    As a output this function will return the value of the temperature in farenheit or celsius 
-    An example is provide in the file example.py(Example5: The temperature monitor using a tmp102 sensor.
-    Please read the comment on file to understand how it's working)
+    We chose the membrane so that the material is both very stretchy and waterproof,
+    so as to make the device waterproof. The most accessible material fulfilling these two criteria is latex.
+    thin like surgical gloves, so that's what we used.
    
-   
--GET PIR SENSOR MOVE DETECTION
+-Fibers
     
-    Fontion: --HC_SR04PIR__(pin):
-    Argument:
-            pin: The number of the digital pin
-    As a output you'll get the the value of the pir sensor.
-    An example is provide in the file example.py(Example6: Move dection using pir sensor.
-    Please read the comment on file to understand how it's working)
+    For the fibers, we had to maximize the amount of light captured and transmitted. Like injecting
+    in the first fiber was more precise, we could have a smaller heart, which made it possible to have a
+    higher output intensity. However, in order to capture enough light on the other side of the diaphragm,
+    the second fiber had to be much larger to compensate for the low precision of the device. The fiber
+    at the largest core we found was 2mm, which allowed us to increase the amount of captured light.
     
     
--GET POSTION USING ANALOG JOYSTICK
+-Assembly
 
       Fonction: __analogJoystick__(pin, unity)
       Argument: 
