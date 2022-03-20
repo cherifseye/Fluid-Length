@@ -42,14 +42,14 @@ applied to the device
    
     
 
--GET THE POTENTIOMETER VALUE:
+-Final support modeling:
 
-    Fonction: __pot__(pin)
-    Argument: 
-            pin: The number of the Analog pin
-    As a output this function will return the value of the resistance of the potentiometer.
-    An example is provide in the file example.py(Example4: Control LED brightness using a potentiometer.
-    Please read the comment on file to understand how it's working)
+<img align= center src="https://github.com/cherifseye/Fluid-Length/blob/master/support_lentille.jpg" alt="drawing" width="200"/>
+
+    Finally, we designed a support with a lens in the center and we positioned the fibers at exactly 2f from the lens in order 
+    to have a magnification of 1. This support is larger than the first, but it offers much greater precision. bigger. 
+    A guide for the placement of the diaphragm has been drawn there in order to position it in the right place and to ensure 
+    the passage of the greatest possible quantity of light.
                                                 
                                                 
                                       
