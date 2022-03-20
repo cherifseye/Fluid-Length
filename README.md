@@ -70,14 +70,12 @@ applied to the device
     
 -Assembly
 
-      Fonction: __analogJoystick__(pin, unity)
-      Argument: 
-            -swpin: The number of the digital pin
-            -Xpin: The number of analog pin for X position
-            -Ypin: The number of analog pin for Y position
-      As a output this function will return the position of your analog joystick
-      An example is provide in the file example.py(Exampl7: Analog joystick position.
-      Please read the comment on file to understand how it's working)
+      A laser beam is injected into a highly multimode fiber of 100 micron core, then is 
+      guided to the device acting as an iris diaphragm. Depending on the external pressure, a quantity of 
+      different light will pass through to the other side and be converged by a biconvex lens with a focal length of
+      35mm. The image of the lens is then located directly on a highly multimode fiber of 2mm core,
+      which guides the beam to a det-110 detector. This detector emits a signal indicating the intensity of light
+      captured and this signal is read by by using an Arduino UNO and the software Fluid Length that we develop.
       
       
 -GET WATER LEVEL
