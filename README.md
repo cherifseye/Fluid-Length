@@ -18,7 +18,7 @@ applied to the device
     
 -Intensity-based pressure sensors:
 
-    he method that seemed the simplest to us for measuring pressure with optical fibers
+    The method that seemed the simplest to us for measuring pressure with optical fibers
     was to have an "iris diaphragm" whose aperture would change with pressure. Thus, we have
     developed the device used for this project. The operation of the device is simple: when a pressure
     is applied to the membrane, the latter deforms so that the pressure inside the device is equal to that
