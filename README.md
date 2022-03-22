@@ -139,7 +139,7 @@ The software is composed of three parts:
           in the fields of specific weight and Pressure abs
           — Real height: This field takes as input the real height of the liquid
           — Precision: By pressing this button, the user obtains the precision of his measurement system.
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/Mesures%2520et%2520calcul.png" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/mesures_calculs.png" alt="drawing" width="200"/>
 
     Graphics:
     In this part the user is able to display in a graph the intensity values according to time.
