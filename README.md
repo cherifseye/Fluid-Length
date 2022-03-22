@@ -32,7 +32,7 @@ applied to the device
    
  -Diaphragm modeling:
  
- <img src="https://github.com/cherifseye/Fluid-Length/blob/master/diaphragme.jpg" alt="drawing" width="200"/>
+ <img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/diaphragme.jpg" alt="drawing" width="200"/>
  
     Given the operating principle of the device we wanted to design, we needed a membrane that could be deformed under pressure. 
     Thus, we choose thin atex as the membrane. In order for a deformation to be observable when the device is in water, the latter must 
@@ -44,7 +44,7 @@ applied to the device
 
 -Final support modeling:
 
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/support_lentille.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/support_lentille.jpg" alt="drawing" width="200"/>
 
     Finally, we designed a support with a lens in the center and we positioned the fibers at exactly 2f from the lens in order 
     to have a magnification of 1. This support is larger than the first, but it offers much greater precision. bigger. 
@@ -70,8 +70,8 @@ applied to the device
     
 -Assembly
 
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/montage1.jpg" alt="drawing" width="200"/>
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/montage2.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/montage1.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/montage2.jpg" alt="drawing" width="200"/>
 
       A laser beam is injected into a highly multimode fiber of 100 micron core, then is 
       guided to the device acting as an iris diaphragm. Depending on the external pressure, a quantity of 
@@ -83,7 +83,7 @@ applied to the device
       
 -Arduino
 
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/circuit.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/circuit.jpg" alt="drawing" width="200"/>
 
     after having received the light which passes through our flexible membrane, the latter is connected to our
     sensor. Thanks to banana wires, one pin of the photo-diode is connected to the ground and the other to a pin of the
@@ -99,10 +99,8 @@ applied to the device
     
 -Embedded Software FLuid Length:
 
-![alt text](https://github.com/cherifseye/Fluid-Length/blob/master/fluidl.png)
-<!---
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/fluidl.png" alt="drawing" width="400"/>
--->
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/fluidl.png" alt="drawing" width="400"/>
+
 
 
 The software is composed of three parts:
@@ -121,10 +119,10 @@ The software is composed of three parts:
     plication with the arduino while the test button allows you to check the assembly and the pins have been correctly
     chosen by lighting the led accompanying the assembly. If the system is not properly connected, or the port or
     the wrong pins, an error message will appear.
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/config.png" alt="drawing" width="400"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/config.png" alt="drawing" width="400"/>
     
     Measures and computations:
-    This part consists of taking the intensity values ​​and calculating the corresponding gauge pressure,
+    This part consists of taking the intensity values ​​and computing the corresponding gauge pressure,
     fluid level, and accuracy. It is mainly composed of two frames
     — Liquid Properties:
            — Density: Takes as value the density of the liquid
@@ -141,7 +139,7 @@ The software is composed of three parts:
           in the fields of specific weight and Pressure abs
           — Real height: This field takes as input the real height of the liquid
           — Precision: By pressing this button, the user obtains the precision of his measurement system.
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/Mesures%2520et%2520calcul.png" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/Mesures%2520et%2520calcul.png" alt="drawing" width="200"/>
 
     Graphics:
     In this part the user is able to display in a graph the intensity values according to time.
@@ -149,7 +147,7 @@ The software is composed of three parts:
     photodiode as a function of time for 150 values.
     The clear button allows you to erase the graph and reactivate the plot button
     
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/graphics.png" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/graphics.png" alt="drawing" width="200"/>
     
     Saving data and Graphics:
     After making the measurements, it is quite possible to save the image of the graph or recover
@@ -159,11 +157,11 @@ The software is composed of three parts:
          — right-click on the part where the graph is displayed, a small window appears and click on
          export.
          
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/export.png" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/export.png" alt="drawing" width="200"/>
     
     — By pressing export a new window opens automatically and you can choose under which
     format you want to export your chart or data with the ability to edit multiple
     settings.
     
-<img src="https://github.com/cherifseye/Fluid-Length/blob/master/save.png" alt="drawing" width="200"/>
+<img src="https://github.com/cherifseye/Fluid-Length/blob/master/images/save.png" alt="drawing" width="200"/>
 
